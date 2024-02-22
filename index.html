@@ -1,604 +1,460 @@
+<!--
+   ____ ____ _________ ____ ____ ____ ____ ____ ____ ____ ____ 
+||b |||y |||       |||@ |||g |||u |||s |||. |||d |||e |||v ||
+||__|||__|||_______|||__|||__|||__|||__|||__|||__|||__|||__||
+|/__\|/__\|/_______\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|
+-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 20px;
-        background-color: #282a36;
-        color: #fff;
-      }
 
-      h2 {
-        color: #f8f8f2;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #282a36;
+      color: #fff;
+    }
 
-      .item {
-        margin-bottom: 10px;
-        background-color: #44475a;
-        padding: 10px;
-        border-radius: 5px;
-      }
+    h2 {
+      color: #f8f8f2;
+    }
 
-      label {
-        display: block;
-        color: #f8f8f2;
-      }
+    .item {
+      margin-bottom: 10px;
+      background-color: #44475a;
+      padding: 10px;
+      border-radius: 5px;
+    }
 
-      .checkbox {
-        margin-right: 5px;
-      }
+    label {
+      display: block;
+      color: #f8f8f2;
+    }
 
-      #total {
-        margin-top: 20px;
-        font-weight: normal;
-        color: #9c9c9c;
-      }
+    .checkbox {
+      margin-right: 5px;
+    }
 
-      .total-value {
-        color: #50fa7b;
-      }
+    #total {
+      margin-top: 20px;
+      font-weight: normal;
+      color: #9c9c9c;
+    }
 
-      hr {
-        border: 1px solid #bd93f93d;
-      }
-    </style>
-    <link
-      rel="icon"
-      href="data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠️</text></svg>"
-    />
-    <title>Los Santos Customs | MetaVersoRP</title>
-  </head>
-  <body>
-    <!-- Acessorios -->
-    <h2>Aparência</h2>
+    .total-value {
+      color: #50fa7b;
+      font-weight: 700;
+    }
 
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Spoiler - 5k | 4.5k
-      </label>
+    hr {
+      border: 1px solid #bd93f93d;
+    }
+
+    .credits,
+    a {
+      font-size: 11px;
+      color: #BD93F9;
+      text-decoration: none;
+    }
+
+    .topo {
+      background-color: #44475A;
+      text-align: center;
+      border-radius: 5px;
+    }
+  </style>
+  <link rel="icon"
+    href="data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠️</text></svg>" />
+  <title>MetaCustoms | code: @Professor @Gus.Dev</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="topo">
+    <h1>MetaCustoms</h1>
+  </div>
+
+  <!-- Motor -->
+
+  <h2>Motor</h2>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="250.00" data-preco-parceria="225.00" />
+      Full Tunning - 250k | 225k
+    </label>
+  </div>
+  <hr>
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="80.00" data-preco-parceria="70.00" />
+      Motor - 80k | 70k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="80.00" data-preco-parceria="70.00" />
+      Freios - 80k | 70k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="80.00" data-preco-parceria="70.00" />
+      Transmissao - 80k | 70k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="80.00" data-preco-parceria="70.00" />
+      Turbo - 80k | 70k
+    </label>
+  </div>
+  <hr />
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="80.00" data-preco-parceria="70.00" />
+      Suspensao - 40k | 30k
+    </label>
+  </div>
+
+
+  <!-- Acessorios -->
+
+  <h2>Aparência</h2>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Spoiler - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Parachoque Frontal - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Parachoque Traseiro - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Saia Lateral - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Escapamento - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      RollCages - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Capo - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Lift Fander - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Rodas - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      InsulFilm - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="3.00" data-preco-parceria="2.00" />
+      Placa - 3k | 2k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Buzina - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Adesivo - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Farol Xenon - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="12.00" data-preco-parceria="10.00" />
+      Neon Completo - 12k | 10k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Item Extra - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Item Extra - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Item Extra - 5k | 4.5k
+    </label>
+  </div>
+
+  <!-- Pintura-->
+
+  <h2>Pintura</h2>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Metallic - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Matte/Fosco - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Metals - 5k | 4.5k
+    </label>
+  </div>
+  <hr />
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="10.00" data-preco-parceria="9.00" />
+      Perolado - 10k | 9k
+    </label>
+  </div>
+
+  <h2>Pintura Secundaria</h2>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Metallic - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Matte/Fosco - 5k | 4.5k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="5.00" data-preco-parceria="4.50" />
+      Metals - 5k | 4.5k
+    </label>
+  </div>
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="10.00" data-preco-parceria="9.00" />
+      Perolado - 10k | 9k
+    </label>
+  </div>
+
+  <!-- Produtos -->
+
+  <h2>Produtos</h2>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="3.00" data-preco-parceria="3.00" />
+      Chave - 3k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="2.50" data-preco-parceria="2.50" />
+      Reparo - 2.5k
+    </label>
+  </div>
+  <hr />
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="1.00" data-preco-parceria="1.00" />
+      Pneu - 1k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="1.00" data-preco-parceria="1.00" />
+      Pneu - 1k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="1.00" data-preco-parceria="1.00" />
+      Pneu - 1k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="1.00" data-preco-parceria="1.00" />
+      Pneu - 1k
+    </label>
+  </div>
+  <hr />
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="4.00" data-preco-parceria="4.00" />
+      Kit Reparo - 4k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="4.00" data-preco-parceria="4.00" />
+      Kit Reparo - 4k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="4.00" data-preco-parceria="4.00" />
+      Kit Reparo - 4k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="4.00" data-preco-parceria="4.00" />
+      Kit Reparo - 4k
+    </label>
+  </div>
+
+  <div class="item">
+    <label>
+      <input type="checkbox" class="checkbox" data-preco-padrao="4.00" data-preco-parceria="4.00" />
+      Kit Reparo - 4k
+    </label>
+  </div>
+
+
+  <!-- Total -->
+
+  <div id="total">
+    <div>
+      Total (Padrão):
+      <span class="total-value" id="totalPadrao">R$ 0.00</span>
     </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Parachoque Frontal - 5k | 4.5k
-      </label>
+    <div>
+      Total (Parceria):
+      <span class="total-value" id="totalParceria">R$ 0.00</span>
     </div>
+  </div>
+  <br />
 
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Parachoque Traseiro - 5k | 4.5k
-      </label>
-    </div>
+  <div class="credits">
+    <p>👨🏿‍💻 Professor <a href="https://www.instagram.com/gus.dev/">@gus.dev</a></p>
+  </div>
 
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Saia Lateral - 5k | 4.5k
-      </label>
-    </div>
+  <!-- Total -->
 
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Escapamento - 5k | 4.5k
-      </label>
-    </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const checkboxes = document.querySelectorAll(".checkbox");
+      const totalPadraoDisplay = document.getElementById("totalPadrao");
+      const totalParceriaDisplay = document.getElementById("totalParceria");
 
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        RollCages - 5k | 4.5k
-      </label>
-    </div>
+      checkboxes.forEach(function (checkbox) {
+        checkbox.addEventListener("change", function () {
+          updateTotal();
+        });
+      });
 
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Capo - 5k | 4.5k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Lift Fander - 5k | 4.5k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Rodas - 5k | 4.5k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        InsulFilm - 5k | 4.5k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="3.00"
-          data-preco-parceria="2.00"
-        />
-        Placa - 3k | 2k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Buzina - 5k | 4.5k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Adesivo - 5k | 4.5k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Farol Xenon - 5k | 4.5k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="12.00"
-          data-preco-parceria="10.00"
-        />
-        Neon Completo - 12k | 10k
-      </label>
-    </div>
-
-    <!-- Motor -->
-
-    <h2>Motor</h2>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="250.00"
-          data-preco-parceria="225.00"
-        />
-        Full Tunning - 250k | 225k
-      </label>
-    </div>
-<hr>
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="80.00"
-          data-preco-parceria="70.00"
-        />
-        Motor - 80k | 70k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="80.00"
-          data-preco-parceria="70.00"
-        />
-        Freios - 80k | 70k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="80.00"
-          data-preco-parceria="70.00"
-        />
-        Transmissao - 80k | 70k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="80.00"
-          data-preco-parceria="70.00"
-        />
-        Turbo - 80k | 70k
-      </label>
-    </div>
-    <hr />
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="80.00"
-          data-preco-parceria="70.00"
-        />
-        Suspensao - 40k | 30k
-      </label>
-    </div>
-
-    <!-- Pintura-->
-
-    <h2>Pintura</h2>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Metallic - 5k | 4.5k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Matte/Fosco - 5k | 4.5k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Metals - 5k | 4.5k
-      </label>
-    </div>
-    <hr />
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="10.00"
-          data-preco-parceria="9.00"
-        />
-        Perolado - 10k | 9k
-      </label>
-    </div>
-
-    <h2>Pintura Secundaria</h2>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Metallic - 5k | 4.5k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Matte/Fosco - 5k | 4.5k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="5.00"
-          data-preco-parceria="4.50"
-        />
-        Metals - 5k | 4.5k
-      </label>
-    </div>
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="10.00"
-          data-preco-parceria="9.00"
-        />
-        Perolado - 10k | 9k
-      </label>
-    </div>
-    <!-- Produtos -->
-
-    <h2>Produtos</h2>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="3.00"
-          data-preco-parceria="3.00"
-        />
-        Chave - 3k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="2.50"
-          data-preco-parceria="2.50"
-        />
-        Reparo - 2.5k
-      </label>
-    </div>
-    <hr />
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="1.00"
-          data-preco-parceria="1.00"
-        />
-        Pneu - 1k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="1.00"
-          data-preco-parceria="1.00"
-        />
-        Pneu - 1k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="1.00"
-          data-preco-parceria="1.00"
-        />
-        Pneu - 1k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="1.00"
-          data-preco-parceria="1.00"
-        />
-        Pneu - 1k
-      </label>
-    </div>
-    <hr />
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="4.00"
-          data-preco-parceria="4.00"
-        />
-        Kit Reparo - 4k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="4.00"
-          data-preco-parceria="4.00"
-        />
-        Kit Reparo - 4k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="4.00"
-          data-preco-parceria="4.00"
-        />
-        Kit Reparo - 4k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="4.00"
-          data-preco-parceria="4.00"
-        />
-        Kit Reparo - 4k
-      </label>
-    </div>
-
-    <div class="item">
-      <label>
-        <input
-          type="checkbox"
-          class="checkbox"
-          data-preco-padrao="4.00"
-          data-preco-parceria="4.00"
-        />
-        Kit Reparo - 4k
-      </label>
-    </div>
-
-    <!-- Total -->
-
-    <div id="total">
-      <div>
-        Total (Padrão):
-        <span class="total-value" id="totalPadrao">R$ 0.00</span>
-      </div>
-      <div>
-        Total (Parceria):
-        <span class="total-value" id="totalParceria">R$ 0.00</span>
-      </div>
-    </div>
-    <br />
-
-    <!-- Total -->
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const checkboxes = document.querySelectorAll(".checkbox");
-        const totalPadraoDisplay = document.getElementById("totalPadrao");
-        const totalParceriaDisplay = document.getElementById("totalParceria");
+      function updateTotal() {
+        let totalPadrao = 0;
+        let totalParceria = 0;
 
         checkboxes.forEach(function (checkbox) {
-          checkbox.addEventListener("change", function () {
-            updateTotal();
-          });
+          if (checkbox.checked) {
+            const precoPadrao = parseFloat(
+              checkbox.getAttribute("data-preco-padrao").replace(",", ".")
+            );
+            const precoParceria = parseFloat(
+              checkbox.getAttribute("data-preco-parceria").replace(",", ".")
+            );
+
+            totalPadrao += precoPadrao;
+            totalParceria += precoParceria;
+          }
         });
 
-        function updateTotal() {
-          let totalPadrao = 0;
-          let totalParceria = 0;
+        totalPadraoDisplay.textContent =
+          "R$ " + totalPadrao.toFixed(3).replace(".", ".");
+        totalParceriaDisplay.textContent =
+          "R$ " + totalParceria.toFixed(3).replace(".", ".");
+      }
+    });
+  </script>
+</body>
 
-          checkboxes.forEach(function (checkbox) {
-            if (checkbox.checked) {
-              const precoPadrao = parseFloat(
-                checkbox.getAttribute("data-preco-padrao").replace(",", ".")
-              );
-              const precoParceria = parseFloat(
-                checkbox.getAttribute("data-preco-parceria").replace(",", ".")
-              );
-
-              totalPadrao += precoPadrao;
-              totalParceria += precoParceria;
-            }
-          });
-
-          totalPadraoDisplay.textContent =
-            "R$ " + totalPadrao.toFixed(3).replace(".", ".");
-          totalParceriaDisplay.textContent =
-            "R$ " + totalParceria.toFixed(3).replace(".", ".");
-        }
-      });
-    </script>
-  </body>
 </html>
